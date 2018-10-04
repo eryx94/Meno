@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "895942669687",
+    "firebase_url": "https://meno-memento-notification.firebaseio.com",
+    "project_id": "meno-memento-notification",
+    "storage_bucket": "meno-memento-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895942669687:android:3c126fe63990cac2",
+        "android_client_info": {
+          "package_name": "com.hooloovoochimico.meno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895942669687-d0rr1u74634kk17leac4j6jcckr1mhis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJLZ4hm4XFmH0XnGD70HDz0R4y0W-yLvQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
