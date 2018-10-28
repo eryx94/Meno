@@ -19,4 +19,9 @@ class DataManager(val context: Context){
     fun storeMemo(memo: Memo){
         memoDb.put(memo.id, memo)
     }
+
+    fun getMemo(memoId: Int): Memo = memoDb.get<Memo>(memoId)
+
+    fun getAllMemos(): List<Memo> = memoDb.getAllValues<Memo>()
+
 }
