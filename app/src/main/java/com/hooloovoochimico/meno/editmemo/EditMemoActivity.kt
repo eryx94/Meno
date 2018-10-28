@@ -14,7 +14,7 @@ class EditMemoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_edit_memo)
 
         val title = findViewById<EditText>(R.id.title)
         val body = findViewById<EditText>(R.id.body)

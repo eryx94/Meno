@@ -1,17 +1,15 @@
 package com.hooloovoochimico.meno.listmemos
 
-import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.hooloovoochimico.meno.Memo
 import com.hooloovoochimico.meno.R
 import kotlinx.android.synthetic.main.memo_view.view.*
 
-class MemosAdapter(private val memos: Array<Memo>) :
+class MemosAdapter(private val memos: List<Memo>) :
         RecyclerView.Adapter<MemosAdapter.MyViewHolder>() {
 
     class MyViewHolder(val memoView: LinearLayout) : RecyclerView.ViewHolder(memoView){
