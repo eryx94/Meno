@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Meno</string>
     <string name="modify_text">Modifica</string>
+    <string name="title_list">Lista Memo</string>
 </resources>

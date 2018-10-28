@@ -1,13 +1,16 @@
-package com.hooloovoochimico.meno
+package com.hooloovoochimico.meno.editmemo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
+import com.hooloovoochimico.meno.Memo
 import com.hooloovoochimico.meno.MenoConstant.EXTRA_MODIFY_ID
+import com.hooloovoochimico.meno.Notifier
+import com.hooloovoochimico.meno.R
 
 
-class MainActivity : AppCompatActivity() {
+class EditMemoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.button)
         button.setOnClickListener{
-            val note = Notifier(this, 1,Memo(1, title.text.toString(), body.text.toString()))
+            val note = Notifier(this, 1, Memo(1, title.text.toString(), body.text.toString()))
             note.showNotify()
         }
 
